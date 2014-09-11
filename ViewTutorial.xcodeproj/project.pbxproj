@@ -21,6 +21,7 @@
 		74663B4719C16A5E0055DBCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74663B2919C16A5E0055DBCC /* UIKit.framework */; };
 		74663B4F19C16A5E0055DBCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74663B4D19C16A5E0055DBCC /* InfoPlist.strings */; };
 		74663B5119C16A5E0055DBCC /* ViewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74663B5019C16A5E0055DBCC /* ViewTutorialTests.m */; };
+		74663B5C19C16BCD0055DBCC /* SOGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 74663B5B19C16BCD0055DBCC /* SOGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		74663B4C19C16A5E0055DBCC /* ViewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		74663B4E19C16A5E0055DBCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74663B5019C16A5E0055DBCC /* ViewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTutorialTests.m; sourceTree = "<group>"; };
+		74663B5A19C16BCD0055DBCC /* SOGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOGrid.h; sourceTree = "<group>"; };
+		74663B5B19C16BCD0055DBCC /* SOGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				74663B3719C16A5E0055DBCC /* Main.storyboard */,
 				74663B3A19C16A5E0055DBCC /* SOViewController.h */,
 				74663B3B19C16A5E0055DBCC /* SOViewController.m */,
+				74663B5A19C16BCD0055DBCC /* SOGrid.h */,
+				74663B5B19C16BCD0055DBCC /* SOGrid.m */,
 				74663B3D19C16A5E0055DBCC /* Images.xcassets */,
 				74663B2C19C16A5E0055DBCC /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				74663B3619C16A5E0055DBCC /* SOAppDelegate.m in Sources */,
 				74663B3C19C16A5E0055DBCC /* SOViewController.m in Sources */,
 				74663B3219C16A5E0055DBCC /* main.m in Sources */,
+				74663B5C19C16BCD0055DBCC /* SOGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
